@@ -1,0 +1,14 @@
+.notFound {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.notFound a {
+    color: white;
+    text-decoration: underline dotted gray;
+    text-underline-offset: 0.2em;
+    letter-spacing: 0.5px;
+    color: #cbcbcb;
+    transition: .3s all;
+    margin-top: 20px;
+}

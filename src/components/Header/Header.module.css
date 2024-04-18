@@ -1,0 +1,26 @@
+.header {}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.nav img {
+    width: 80%;
+}
+
+.nav a {
+    color: #cbcbcb;
+    text-decoration: underline dotted gray;
+    text-underline-offset: 0.2em;
+    letter-spacing: 0.5px;
+    color: #cbcbcb;
+    text-overflow: ellipsis;
+    transition: .3s all;
+}
+
+.nav a:hover {
+    color: white;
+}
